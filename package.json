@@ -1,12 +1,24 @@
 {
-  "name": "hinata-bot",
+  "name": "hinata-telegram-bot",
   "version": "1.0.0",
+  "description": "Hinata Telegram Bot — Full Game Edition",
   "main": "bot.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "node bot.js"
   },
+  "keywords": [
+    "telegram",
+    "bot",
+    "hinata",
+    "game-bot",
+    "groq"
+  ],
+  "author": "Hinata",
+  "license": "MIT",
   "dependencies": {
     "node-telegram-bot-api": "^0.66.0",
-    "openai": "^4.0.0"
+    "openai": "^4.52.7"
   }
 }
